@@ -1,0 +1,36 @@
+.main-content {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1)
+}
+
+.main-content h2 {
+    background: linear-gradient(45deg, #26e8dd, #269ae8);
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    color: #fff;
+    line-height: 25px
+}
+
+.main-content p {
+    padding: 0 20px 20px;
+    line-height: 35px;
+    color: #444;
+    font-weight: 600
+}
+
+.main-content a {
+    font-weight: 700;
+    color: #222
+}
+
+.main-content a:hover {
+    text-decoration: underline;
+    color: #269ae8
+}
+
+.test-links a {
+    display: inline-block
+}

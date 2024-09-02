@@ -1,0 +1,68 @@
+{
+    "display": "standalone",
+    "name": "قالب سكويز – قالب بلوجر عصري للمجلات",
+    "short_name": "Squeeze Template",
+    "start_url": "https://www.squeeze-template.com/",
+    "scope": "https://www.squeeze-template.com/",
+    "background_color": "#ffffff",
+    "theme_color": "#d24949",
+    "dir" :"rtl",
+    "lang" :"ar",
+    "orientation": "portrait",
+    "icons":[{
+        "src": "https://3.bp.blogspot.com/-xYYm6xUXFF4/X2FQTl6UqHI/AAAAAAAABWk/8aJ3Brt7mrYT0FqMFZTI8BHmb5tQ8PjjgCK4BGAYYCw/s512-c/LO.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "https://3.bp.blogspot.com/-xYYm6xUXFF4/X2FQTl6UqHI/AAAAAAAABWk/8aJ3Brt7mrYT0FqMFZTI8BHmb5tQ8PjjgCK4BGAYYCw/s256-c/LO.png",
+        "type": "image/png",
+        "sizes": "256x256"
+    },
+    {
+        "src": "https://3.bp.blogspot.com/-xYYm6xUXFF4/X2FQTl6UqHI/AAAAAAAABWk/8aJ3Brt7mrYT0FqMFZTI8BHmb5tQ8PjjgCK4BGAYYCw/s192-c/LO.png",
+        "type": "image/png",
+        "sizes": "192x192"
+    },
+    {
+        "src": "https://3.bp.blogspot.com/-xYYm6xUXFF4/X2FQTl6UqHI/AAAAAAAABWk/8aJ3Brt7mrYT0FqMFZTI8BHmb5tQ8PjjgCK4BGAYYCw/s128-c/LO.png",
+        "type": "image/png",
+        "sizes": "128x128"
+    },
+    {
+        "src": "https://3.bp.blogspot.com/-xYYm6xUXFF4/X2FQTl6UqHI/AAAAAAAABWk/8aJ3Brt7mrYT0FqMFZTI8BHmb5tQ8PjjgCK4BGAYYCw/s96-c/LO.png",
+        "type": "image/png",
+        "sizes": "96x96"
+    },
+    {
+        "src": "https://3.bp.blogspot.com/-xYYm6xUXFF4/X2FQTl6UqHI/AAAAAAAABWk/8aJ3Brt7mrYT0FqMFZTI8BHmb5tQ8PjjgCK4BGAYYCw/s72-c/LO.png",
+        "type": "image/png",
+        "sizes": "72x72"
+    }],
+    "shortcuts": [{
+        "name": "شرح القالب",
+        "url": "https://www.squeeze-template.com/documentation",
+        "icons": [{"src": "https://3.bp.blogspot.com/-xYYm6xUXFF4/X2FQTl6UqHI/AAAAAAAABWk/8aJ3Brt7mrYT0FqMFZTI8BHmb5tQ8PjjgCK4BGAYYCw/s96-c/LO.png", "purpose": "any", "sizes": "96x96"}]
+    },
+    {
+        "name": "أسئلة شائعة",
+        "url": "https://www.squeeze-template.com/faq",
+        "icons": [{"src": "https://3.bp.blogspot.com/-xYYm6xUXFF4/X2FQTl6UqHI/AAAAAAAABWk/8aJ3Brt7mrYT0FqMFZTI8BHmb5tQ8PjjgCK4BGAYYCw/s96-c/LO.png", "purpose": "any", "sizes": "96x96"}]
+    },
+    {
+        "name": "العملاء",
+        "url": "https://www.squeeze-template.com/clients",
+        "icons": [{"src": "https://3.bp.blogspot.com/-xYYm6xUXFF4/X2FQTl6UqHI/AAAAAAAABWk/8aJ3Brt7mrYT0FqMFZTI8BHmb5tQ8PjjgCK4BGAYYCw/s96-c/LO.png", "purpose": "any", "sizes": "96x96"}]
+    },
+    {
+        "name": "نسخة مجانية",
+        "url": "https://www.squeeze-template.com/free",
+        "icons": [{"src": "https://3.bp.blogspot.com/-xYYm6xUXFF4/X2FQTl6UqHI/AAAAAAAABWk/8aJ3Brt7mrYT0FqMFZTI8BHmb5tQ8PjjgCK4BGAYYCw/s96-c/LO.png", "purpose": "any", "sizes": "96x96"}]
+    },
+    {
+        "name": "أداة دمج الإصدارات",
+        "url": "https://www.squeeze-template.com/merger",
+        "icons": [{"src": "https://3.bp.blogspot.com/-xYYm6xUXFF4/X2FQTl6UqHI/AAAAAAAABWk/8aJ3Brt7mrYT0FqMFZTI8BHmb5tQ8PjjgCK4BGAYYCw/s96-c/LO.png", "purpose": "any", "sizes": "96x96"}]
+    }]
+}

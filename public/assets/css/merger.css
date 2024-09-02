@@ -1,0 +1,167 @@
+.main-content section {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.main-content h2 {
+    background: linear-gradient(45deg, #ffa5d7, #ff0052);
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    color: #fff;
+    line-height: 25px
+}
+
+#merger-faq {
+    margin: 0 30px
+}
+
+#merger-faq>li {
+    color: #222;
+    margin: 10px 0;
+    list-style: circle;
+    font-size: 16px;
+    line-height: 25px
+}
+
+#merger-faq ol {
+    padding-right: 35px;
+    border-right: 5px solid #EEE;
+    margin-right: 20px;
+}
+
+#merger-faq ol li {
+    color: #666;
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 20px;
+    list-style: decimal;
+}
+
+.merge-button {
+    width: 50px;
+    height: 50px;
+    background: url(https://4.bp.blogspot.com/-h0WhmNAIeSg/XgZwVkbVlCI/AAAAAAAABBI/Kf_Wre07M24USj-m4ZSWvRZre6KS8D_uACK4BGAYYCw/s1600/merge%2B%25287%2529.png) no-repeat center center;
+    float: right;
+    margin: 0 15px;
+    background-size: 100%;
+    text-align: center;
+    margin-top: 130px;
+    transform: scale(0.95);
+}
+
+.merge-button:hover {
+    transform: scale(1);
+}
+
+.form-right,
+.form-left {
+    float: right;
+    width: calc((100% - 80px)/2);
+}
+
+.form-right .form-group:first-of-type {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group textarea {
+    display: block;
+    width: 100%;
+    color: #222;
+    padding: 15px;
+    min-height: 150px;
+    resize: vertical;
+    border-radius: 2px;
+    direction: ltr;
+    line-height: 20px;
+    transition: 0.3s box-shadow, 0.3s border
+}
+
+.form-group textarea:invalid {
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 0 1px 1px #ddd;
+    box-shadow: 0 1px 1px #ddd
+}
+
+.form-group textarea[readonly] {
+    border: 2px solid #ddd;
+    min-height: 320px;
+}
+
+.form-group textarea:not([readonly]):focus,
+.form-group textarea:valid {
+    border: 2px solid #ff0052;
+    -webkit-box-shadow: 0 0 1px #ff95b7;
+    box-shadow: 0 0 1px #ff95b7
+}
+
+.form-group label {
+    color: #666;
+    pointer-events: none;
+    position: absolute;
+    right: 30px;
+    padding: 2px 5px;
+}
+
+.form-group textarea:invalid+label {
+    top: 20px;
+    font-size: 14px;
+}
+
+.form-group textarea[readonly]+label {
+    color: #666;
+}
+
+.form-group textarea:focus+label,
+.form-group textarea:valid+label,
+.form-group textarea[readonly]+label {
+    top: -7px;
+    font-size: 12px;
+    background: #FFF;
+    color: #ff0052;
+}
+
+.ace_editor {
+    height: 150px;
+}
+
+.copy-result {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    background: url(https://4.bp.blogspot.com/-Sd-zaWp7Jqs/Xgahn6l04EI/AAAAAAAABBU/8JFN3DQr74EgvwOOLBKNhl-M-2dPxb3FgCK4BGAYYCw/s1600/copy.png) no-repeat center center;
+    background-size: 60%;
+    border-radius: 100px;
+    background-color: #FFF;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.copy-result:hover {
+    background-color: #ffa4d7;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width:640px) {
+
+    .form-right,
+    .form-left {
+        float: none;
+        width: 100%;
+    }
+
+    .merge-button {
+        float: none;
+        margin: 20px auto;
+        display: block;
+    }
+}

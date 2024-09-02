@@ -1,0 +1,456 @@
+/*----Intro----*/
+#intro {
+    height: 300px;
+    background: url(https://3.bp.blogspot.com/-WtJI3xD8kEY/Wq5ho_O-qaI/AAAAAAAAANo/2Il7gCHOVzUl3GzbM-dz0iB9osQLQP82QCLcBGAs/s1600/intro.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 30px
+}
+
+.intro-buttons a {
+    padding: 15px 30px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 5px
+}
+
+.intro-buttons a[href*='#'] {
+    color: #aaa;
+    border: 2px solid #7839c9
+}
+
+.intro-buttons a[href*='#']:hover {
+    color: #FFF;
+    background-color: #7839c9
+}
+
+.intro-buttons a[href*='com'] {
+    color: #aaa;
+    border: 2px solid #d24949
+}
+
+.intro-buttons a[href*='com']:hover {
+    color: #FFF;
+    background-color: #d24949
+}
+
+.intro-buttons {
+    text-align: center;
+    padding-top: 200px
+}
+
+/*----Main----*/
+.main-content {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.main-content section {
+    overflow: hidden;
+    margin-bottom: 30px;
+    clear: both
+}
+
+.main-content section>h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ccc;
+    font-size: 24px;
+    position: relative
+}
+
+.main-content section>h2>b {
+    position: relative;
+    z-index: 2;
+    background-color: #FFF;
+    padding: 0 30px;
+    display: inline-block
+}
+
+.main-content section>h2:before {
+    content: '';
+    background: #eee;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    z-index: 0;
+    border-radius: 100px
+}
+
+.main-content section>h2:after {
+    transform: rotateY(180deg)
+}
+
+
+/*----About----*/
+#About ul {
+    float: right;
+    width: 50%
+}
+
+#About li:before {
+    content: "ⓘ";
+    color: #4a8ffb;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 16px
+}
+
+#About li {
+    display: block;
+    margin-bottom: 15px
+}
+
+#About li b {
+    font-weight: 400;
+    color: #666;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#About li i {
+    font-style: normal;
+    display: inline-block;
+    vertical-align: middle;
+    color: #d24949
+}
+
+#About li span {
+    font-weight: 600;
+    color: #444;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#About a {
+    color: #222
+}
+
+#About a:hover {
+    color: #904fc0;
+    text-decoration: underline
+}
+
+#LinkList2 h1 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5em;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #999;
+    background-color: #f5f5f5;
+    clear: both;
+}
+
+#About p {
+    text-align: justify;
+    line-height: 1.5em;
+    color: #666;
+    font-family: inherit;
+    width: 90%;
+    margin: 0 auto 30px;
+}
+
+/*----Features----*/
+#Features {
+    font-size: 0
+}
+
+#Features div {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+    vertical-align: top
+}
+
+#Features div b {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.5em;
+    width: 90%;
+    display: block;
+    margin: 0 auto
+}
+
+#Features {
+    font-size: 0
+}
+
+#Features i {
+    width: 62px;
+    height: 45px;
+    display: block;
+    background-image: url(https://3.bp.blogspot.com/-5yqfQr_sy9k/WmTOVw3xj9I/AAAAAAAAADw/XwVm5cqIdVstZE94db9LxDLJkVJln10XgCLcBGAs/s1600/Icons.png);
+    background-repeat: no-repeat;
+    background-size: 470px;
+    margin: 0 auto 10px
+}
+
+i.comments {
+    background-position-x: 0
+}
+
+i.slider {
+    background-position-x: -412px
+}
+
+i.cates {
+    background-position-x: -116px
+}
+
+i.related {
+    background-position-x: -233px
+}
+
+i.ads {
+    background-position-x: -176px
+}
+
+i.widgets {
+    background-position-x: -348px
+}
+
+i.commenters {
+    background-position-x: -57px
+}
+
+i.social {
+    background-position-x: -293px
+}
+
+/*----Adventages----*/
+#Adventages div b {
+    color: #7839c9;
+    line-height: 1.5em;
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    display: block
+}
+
+#Adventages div span {
+    color: #444;
+    line-height: 25px;
+    font-weight: 600;
+    display: block;
+    margin-right: 30px;
+    font-size: 15px
+}
+
+#Adventages div {
+    padding: 10px 20px;
+    float: right;
+    width: 48%;
+    height: 80px;
+    height: 100px
+}
+
+#Adventages div:nth-of-type(odd) {
+    margin-left: 2%
+}
+
+#Adventages div:before {
+    content: "∷";
+    float: right;
+    font-size: 22px;
+    margin: 4px 0 0 10px;
+    color: #aaa;
+    transition: .3s
+}
+
+#Adventages div:hover:before {
+    transform: rotate(90deg);
+    color: #d24949
+}
+
+/*----Purchase----*/
+#Purchase {
+    text-align: center
+}
+
+#Purchase div {
+    width: 200px;
+    display: none;
+    vertical-align: top
+}
+
+#Purchase span {
+    color: #444;
+    background-image: url(https://3.bp.blogspot.com/-utcbZKnbVZc/XgtkP15WioI/AAAAAAAABBg/fdJUQAvGmE4-PuMcjE89Q1k-EVi-veyMwCK4BGAYYCw/s1600/landing.png);
+    height: 62px;
+    width: 144px;
+    display: block;
+    margin: 0 auto;
+    transform: scale(0.8)
+}
+
+.khamsat span {
+    background-position-y: 0
+}
+
+.picalica span {
+    background-position-y: -62px
+}
+
+.qawalleb span {
+    background-image: url(https://i.ibb.co/s9gkvJJ/qawalleb.png) !important;
+    background-size: contain;
+}
+
+.monafiz span {
+    background-image: url(https://i.ibb.co/3B2Hd7V/image.png) !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vodafone span {
+    background-position-y: -124px
+}
+
+.bitcoin span {
+    background-position-y: -186px
+}
+
+.kafiil span {
+    background-position-y: -248px
+}
+
+#Purchase a {
+    display: block;
+    width: 140px;
+    margin: 10px auto;
+    padding: 15px 0;
+    border-radius: 100px;
+    color: #fff
+}
+
+#Purchase div:not(.paypal) a:hover {
+    width: 160px;
+    background-color: #904fc0
+}
+
+.price {
+    border-radius: 100px;
+    line-height: 25px;
+    position: relative;
+    z-index: 2;
+    width: 340px;
+    display: block;
+    background: linear-gradient(45deg, #d24949, #9e44c9);
+    clear: both;
+    margin: 0 auto 30px;
+    padding: 20px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700
+}
+
+#Purchase>h2:before {
+    top: 30px
+}
+
+.khamsat a {
+    background-color: #e69a01
+}
+
+.picalica a {
+    background-color: #a9a3c7
+}
+
+.vodafone a {
+    background-color: #ee1c23
+}
+
+.kafiil a {
+    background-color: #89bc38
+}
+
+.qawalleb a {
+    background-color: #ec7345
+}
+
+.monafiz a {
+    background-color: #49ab81
+}
+
+#Purchase .paypal {
+    width: auto
+}
+
+#Purchase .paypal a {
+    width: 264px;
+    height: 54px;
+    background: url(https://1.bp.blogspot.com/-p26o0E6gJU8/W8n8blh3HUI/AAAAAAAAAjs/hfdz2wEntIQ-6J10HWLeARk7P59ojhz0wCK4BGAYYCw/s1600/paypal-but.png) no-repeat center center;
+    padding: 0;
+    border-radius: 0
+}
+
+@media screen and (max-width:768px) {
+    #About ul {
+        float: none;
+        width: 100%
+    }
+
+    #Features div {
+        width: 50%
+    }
+
+    #Adventages div {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px 0
+    }
+}
+
+@media screen and (max-width:480px) {
+    #intro {
+        height: 200px
+    }
+
+    .intro-buttons {
+        text-align: center;
+        padding-top: 130px
+    }
+
+    #Features div {
+        width: 100%
+    }
+
+    #Adventages div {
+        height: auto
+    }
+
+    .price {
+        width: auto
+    }
+
+    #Features i {
+        float: right !important;
+        margin-left: 20px
+    }
+
+    #Features div b {
+        text-align: right
+    }
+}
+
+@media screen and (max-width:360px) {
+    #About li b {
+        width: auto
+    }
+
+    #About li span {
+        display: block;
+        margin: 10px 30px 20px auto
+    }
+}

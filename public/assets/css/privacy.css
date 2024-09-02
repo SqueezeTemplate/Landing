@@ -1,0 +1,26 @@
+#HTML7 {
+    line-height: 2em;
+    text-align: justify;
+    font-size: 18px;
+    color: #444
+}
+
+#HTML7 a {
+    font-weight: bold;
+    color: #4093ff;
+}
+
+#HTML7 a:hover {
+    text-decoration: underline;
+}
+
+#HTML7 h2 {
+    font-size: 20px;
+    color: #222;
+    margin: 30px 0 10px 0;
+}
+
+#HTML7 h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}

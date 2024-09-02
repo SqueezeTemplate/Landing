@@ -128,3 +128,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/views
+package-lock.json
+/modals
+index.js
+sw.js
