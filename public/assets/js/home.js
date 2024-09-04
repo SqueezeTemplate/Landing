@@ -1,14 +1,7 @@
-if (sessionStorage.view == 'Picalica') {
-    $('.picalica').css('display', 'inline-block');
-} else if (sessionStorage.view == 'Khamsat') {
-    $('.khamsat').css('display', 'inline-block');
-} else if (sessionStorage.view == 'Kafiil') {
-    $('.kafiil').css('display', 'inline-block');
+let custom_views = ["khamsat", "kafiil", "monafiz"]
+
+if (custom_views.includes(sessionStorage.view)) {
+    $(`.${sessionStorage.view}`).css('display', 'inline-block');
 } else {
-    if (localStorage.view == 'Paypal') {
-        $('.paypal').css('display', 'inline-block');
-        $('.paypal a').attr('href', $('.paypal a').attr('href') + '&custom=' + localStorage.ref);
-    } else {
-        $('.picalica,.khamsat,.vodafone,.kafiil,.qawalleb,.monafiz').css('display', 'inline-block');
-    }
+    $('.khamsat,.vodafone,.kafiil,.qawalleb,.monafiz').css('display', 'inline-block');
 }

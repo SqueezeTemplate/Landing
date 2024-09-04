@@ -2,17 +2,21 @@
 let view_from_params = new URLSearchParams(location.search).get("view"),
     redirect_to;
 
-switch (view_from_params) {
-    case "Documentation": redirect_to = "/documentation"; break;
-    case "Faq": location.href = "/faq"; break;
-    case "Updates": location.href = "/updates"; break;
-    case "Clients": location.href = "/clients"; break;
-    case "Free": location.href = "/free"; break;
-    case "Merger": location.href = "/merger"; break;
-    case "About": location.href = "/about"; break;
-    case "Privacy": location.href = "/privacy"; break;
-    default: redirect_to = "/"
+if (view_from_params) {
+    switch (view_from_params) {
+        case "Documentation": redirect_to = "/documentation"; break;
+        case "Faq": redirect_to = "/faq"; break;
+        case "Updates": redirect_to = "/updates"; break;
+        case "Clients": redirect_to = "/clients"; break;
+        case "Free": redirect_to = "/free"; break;
+        case "Merger": redirect_to = "/merger"; break;
+        case "About": redirect_to = "/about"; break;
+        case "Privacy": redirect_to = "/privacy"; break;
+    }
+    sessionStorage.view = view_from_params.toLowerCase();
+    if (redirect_to) location.href = redirect_to;
 }
+
 
 // Activate current page link in header
 let active_page_link = $(`#header nav a[href*=${viewid}]`);
