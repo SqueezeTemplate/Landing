@@ -818,6 +818,22 @@ header select:focus {
     color: #666
 }
 
+section.ad-section {
+    position: relative;
+}
+
+span.ad-title {
+    background: #fffbbe;
+    color: #565800;
+    position: absolute;
+    top: 0;
+    inset-inline-end: 0;
+    padding: 10px 20px;
+    font-size: 12px;
+    z-index: 9;
+    pointer-events: none;
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width:996px) {
