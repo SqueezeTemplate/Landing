@@ -4,4 +4,4 @@ Disallow:
 User-agent: *
 Allow: /
 
-Sitemap: https://squeeze-demo.blogspot.com/sitemap.xml
+Sitemap: https://www.squeeze-template.com/sitemap.xml
