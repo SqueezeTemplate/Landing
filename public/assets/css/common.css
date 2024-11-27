@@ -914,3 +914,27 @@ span.ad-title {
         text-align: center;
     }
 }
+
+.floating {
+    width: 65%;
+    margin: auto;
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.floating:hover {
+    opacity: 0.95;
+    animation-play-state: paused;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, -15px)
+    } 50% {
+        transform: translate(0, 15px)
+    } 100% {
+        transform: translate(0, -15px)
+    }
+}
