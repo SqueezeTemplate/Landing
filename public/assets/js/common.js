@@ -94,14 +94,14 @@ $(window).one('scroll', function () {
         FB.init({
             appId: '138142643527550',
             xfbml: true,
-            version: 'v4.0'
+            version: 'v21.0'
         });
     });
     $.getScript('https://connect.facebook.net/ar_AR/sdk/xfbml.customerchat.js', function () {
         FB.init({
             appId: '138142643527550',
             xfbml: true,
-            version: 'v4.0'
+            version: 'v21.0'
         });
     });
 });
